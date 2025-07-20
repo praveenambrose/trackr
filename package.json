@@ -1,0 +1,23 @@
+{
+  "name": "project-tracker",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "pinia": "^2.3.1",
+    "pinia-plugin-persistedstate": "^2.4.0",
+    "uuid": "^9.0.1",
+    "vue": "^3.2.37",
+    "vue-dragscroll": "^4.0.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.1",
+    "autoprefixer": "^10.4.8",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.8",
+    "vite": "^3.0.1"
+  }
+}
