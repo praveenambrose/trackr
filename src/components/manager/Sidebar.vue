@@ -1,7 +1,7 @@
 <template>
     <div class="z-10 fixed transition-all bg-white" 
     :class="manager.sidebar ? ['translate-x-[0]']: ['translate-x-[-100%]']">
-        <div class="w-80 min-h-[calc(100vh-80px)] flex flex-col border-r border-r-lines-light">
+        <div class="w-64 lg:w-[300px] min-h-[calc(100vh-80px)] flex flex-col border-r border-r-lines-light">
             <p class="text-medium-grey py-3 px-4 text-xs font-bold">ALL BOARDS ({{ boards.length }})</p>
             <div
                 v-for="(board, index) in boards"
